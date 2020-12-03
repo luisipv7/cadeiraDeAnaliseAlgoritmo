@@ -1,8 +1,8 @@
 let vetor = [20, 8, 99, 800, 9, 1]
 let atual = []
-let newValue = window.prompt('insira um valor')
+// let newValue = window.prompt('insira um valor')
 
-vetor.push(Number(newValue))
+vetor.push(Number(5))
 
 console.log(vetor);
 

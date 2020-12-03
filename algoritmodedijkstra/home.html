@@ -1,0 +1,26 @@
+ <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> Problema inicial: <br> <div class="mermaid" >
+graph LR 
+ inicio-->|5|A
+inicio-->|2|B
+A-->|4|C
+A-->|2|F
+B-->|8|A
+B-->|7|D
+C-->|6|D
+C-->|3|fim
+D-->|2|E
+D-->|2|fim
+E-->|1|fim
+E-->|5|F
+F-->|1|G
+
+G-->|7|fim
+
+
+
+ </div>  
+<br> Solução:  
+   <div class="mermaid"> 
+graph LR 
+ inicio-->B-->D-->fim 
+</div>
