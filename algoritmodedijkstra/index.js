@@ -1,12 +1,19 @@
 const fs = require('fs')
 
 
+/*
+
+Para criar o gráfico abrir o console e rodar 'node ./index.js' logo na pasta raiz será criado o './home.html'
+
+
+*/
+
 async function iniciar () {
   const graph = {
     inicio: { A: 5, B: 2 },
     A: { C: 4, F: 2 },
     B: { A: 8, D: 7 },
-    C: { D: 6, fim: 3 },
+    C: { D: 6, fim: 10 },
     D: { E: 2, fim: 2 },
     E: { fim: 1, F: 5 },
     F: { G: 1 },
